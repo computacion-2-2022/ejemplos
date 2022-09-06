@@ -98,7 +98,11 @@ int main() {
          * Nótese que este incremento podría haberse hecho de otras maneras:
          *  n_palabras = n_palabras + 1;
          *  n_palabras += 1;
-         *  ++n_palabras++;
+         *  ++n_palabras;
+         * Si bien el resultado final de cada una de las opciones anteriores es
+         * el mismo, la preferencia con la que ocurre el incremento **no** es
+         * la misma. Se puede predecir el resultado aplicando las reglas que
+         * aparecen en: https://en.cppreference.com/w/cpp/language/operator_precedence
          */
         n_palabras++;
     }
