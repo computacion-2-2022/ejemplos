@@ -65,9 +65,9 @@ int main() {
      * ser sustituida por  `!(num % 2)`.
      */
     if (num % 2 == 0)
-        cout << "\nEl numero es par \n";
+        cout << "\nEl numero es par\n";
     else
-        cout << "\nEl numero es impar \n";
+        cout << "\nEl numero es impar\n";
 
     /*
      * A pesar de que no es «estrictamente» necesario, es una buena
