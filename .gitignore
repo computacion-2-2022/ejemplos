@@ -10,6 +10,7 @@ bin/
 
 # Ignore data files except selected ones
 *.txt
+!libro.txt
 
 # Ignore general trash and assorted
 *.acciones
