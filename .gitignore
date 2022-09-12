@@ -1,0 +1,15 @@
+# Ignore hidden files except the .gitignore
+.*
+!.gitignore
+
+# Ignore built binaries
+a.out
+bin/
+*.ex
+*.exe
+
+# Ignore data files except selected ones
+*.txt
+
+# Ignore general trash and assorted
+*.acciones
