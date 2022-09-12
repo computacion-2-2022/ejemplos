@@ -107,7 +107,7 @@ int main() {
      * encontrar más información del método `eof()` en:
      *  https://en.cppreference.com/w/cpp/io/basic_ios/eof
      */
-    while(!mif.eof()) {
+    while (!mif.eof()) {
         /*
          * Y cada vez que extraigamos una vamos actualizando la cuenta total.
          * El hecho de que este incremento sea el primer paso de la iteración

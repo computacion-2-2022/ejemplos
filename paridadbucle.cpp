@@ -101,7 +101,7 @@ int main() {
          * implica que la comprobación `num % 2 == 0` es redundante y podría
          * ser sustituida por  `!(num % 2)`.
          */
-        if(num % 2 == 0) {
+        if (num % 2 == 0) {
             cout << "\nEl numero es par\n";
         } else {
             cout << "\nEl numero es impar\n";

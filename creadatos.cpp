@@ -88,7 +88,7 @@ int main() {
      * Un sitio web muy interesante para familiarizarse con el estándar IEEE-754
      * es https://www.h-schmidt.net/FloatConverter/IEEE754.html.
      */
-    while(x < 9.1) {
+    while (x < 9.1) {
         /*
          * En este caso, el «operador de inserción» (i.e. `<<`) se aplica
          * al flujo `misdat` en vez de al tradicional `cout`. Tal y como

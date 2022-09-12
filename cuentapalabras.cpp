@@ -89,7 +89,7 @@ int main() {
      * encontrar más información del método `eof()` en:
      *  https://en.cppreference.com/w/cpp/io/basic_ios/eof
      */
-    while( !mif.eof() ) {
+    while (!mif.eof()) {
         // Mientras quede archivo por leer seguimos extrayendo palabras...
         mif >> palabra;
 
