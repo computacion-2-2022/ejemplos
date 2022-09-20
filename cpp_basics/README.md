@@ -1,5 +1,5 @@
-# Ejemplos de introducción a C++
-Este repositorio contiene varios ejemplos de C++ que irán introduciendo conceptos útiles para
+# Ejemplos iniciales de C++
+Este directorio contiene varios ejemplos de C++ que irán introduciendo conceptos útiles para
 clases posteriores.
 
 Todos estos ejemplos contienen gran cantidad de comentarios exhaustivos para facilitar la
@@ -55,9 +55,6 @@ programa es la misma que la de `wc --words libro.txt`.
 - `selecciónPalabras.cpp`: Este ejemplo muestra cómo abrir un archivo para luego filtrar y escribir
 los resultados a otro distinto. Este ejemplo incluye bucles, manejo de flujos de archivos, el operador
 módulo...
-
-- `funcPtrs.cpp`: Este ejemplo versa sobre funciones y punteros a funciones. Por ahora seguro que
-resulta bastante críptico, pero en un tiempo seguro que lo encontráis útil o, al menos, interesante.
 
 ## ¿Makefile?
 [GNU Make](https://www.gnu.org/software/make/) es un programa que facilita la generación de

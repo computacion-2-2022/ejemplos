@@ -4,8 +4,8 @@ CC = g++
 CPP_STANDARD = 11
 CFLAGS = -Wall -Wextra -std=c++$(CPP_STANDARD)
 
-PROGS := asignaciones creaDatos cuentaPalabras funcPtrs $\
-	paridad paridadBucle productorio seleccionPalabras sumatorio valores
+PROGS := asignaciones creaDatos cuentaPalabras paridad $\
+	paridadBucle productorio seleccionPalabras sumatorio valores
 
 TRASH := *.out *.o *.ex
 
@@ -15,7 +15,6 @@ info:
 	@printf "\t- asignaciones: Compila el ejemplo de asignaciones y genera el ejecutable asignaciones.ex.\n"
 	@printf "\t- creaDatos: Compila el ejemplo de asignaciones y genera el ejecutable creaDatos.ex\n"
 	@printf "\t- cuentaPalabras: Compila el ejemplo de asignaciones y genera el ejecutable cuentaPalabras.ex\n"
-	@printf "\t- funcPtrs: Compila el ejemplo de asignaciones y genera el ejecutable funcPtrs.ex\n"
 	@printf "\t- paridad: Compila el ejemplo de asignaciones y genera el ejecutable paridad.ex\n"
 	@printf "\t- paridadBucle: Compila el ejemplo de asignaciones y genera el ejecutable paridadBucle.ex\n"
 	@printf "\t- productorio: Compila el ejemplo de asignaciones y genera el ejecutable productorio.ex\n"
