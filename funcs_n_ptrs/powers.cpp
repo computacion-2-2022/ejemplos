@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-double pow(double, double);
+double powRecursive(double, double);
 
 int main(int argc, char** argv) {
     double base, exponent;
@@ -19,12 +19,12 @@ int main(int argc, char** argv) {
         return -1;
     }
 
-    std::cout << base << " ^ " << exponent << " = " << pow(base, exponent) << std::endl;
+    std::cout << base << " ^ " << exponent << " = " << powRecursive(base, exponent) << std::endl;
     return 0;
 }
 
-double pow(double base, double exp) {
+double powRecursive(double base, double exp) {
     if (!exp)
         return 1;
-    return base * pow(base, exp - 1);
+    return base * powRecursive(base, exp - 1);
 }
