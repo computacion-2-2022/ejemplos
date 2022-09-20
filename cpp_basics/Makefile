@@ -1,4 +1,3 @@
-
 # Note make will substitue non-defined variables with an empty string!
 CC = g++
 CPP_STANDARD = 11
